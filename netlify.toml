@@ -1,7 +1,7 @@
 [build]
   command = "react-scripts build"
   base ="/"
-  publish = "/dist"
+  publish = "/build"
 
 [[redirects]]
   from = "/*"

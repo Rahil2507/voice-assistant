@@ -1,0 +1,9 @@
+[build]
+  command = "react-scripts build"
+  publish = "/dist"
+  base ="/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC9-jj0jJUCp0wqcg2fVZttNCrODBrf4Nc",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "jarvis-web-be0c3.firebaseapp.com",
   projectId: "jarvis-web-be0c3",
   storageBucket: "jarvis-web-be0c3.appspot.com",
